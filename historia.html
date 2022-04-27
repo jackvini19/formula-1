@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.dark.min.css" rel="stylesheet"/>
+
+    <!-- Style Próprio-->
+    <link rel="stylesheet" href="">
+
+    <title>Fórmula 1</title>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-flag-checkered"></i></a>
+                </li>
+            </ul>
+            <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center ">
+            <!-- Icon -->
+            <ul>
+                <a class="text-reset me-3" href="sair.html" target="_blank">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+            </ul>
+        </div>
+        <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <!-- Tabs navs -->
+            <ul class="nav nav-tabs nav-justified mb-3" id="ex1" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="ex3-tab-1" data-mdb-toggle="tab" href="#ex3-tabs-1" role="tab"
+                       aria-controls="ex3-tabs-1" aria-selected="true">2022</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex3-tab-2" data-mdb-toggle="tab" href="#ex3-tabs-2" role="tab"
+                       aria-controls="ex3-tabs-2" aria-selected="false">2021</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex3-tab-3" data-mdb-toggle="tab" href="#ex3-tabs-3" role="tab"
+                       aria-controls="ex3-tabs-3" aria-selected="false">2020</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex3-tab-4" data-mdb-toggle="tab" href="#ex3-tabs-4" role="tab"
+                       aria-controls="ex3-tabs-4" aria-selected="false">2019</a>
+                </li>
+            </ul>
+            <!-- Tabs navs -->
+
+            <!-- Tabs content -->
+            <div class="tab-content" id="ex2-content">
+                <div class="tab-pane fade show active" id="ex3-tabs-1" role="tabpanel" aria-labelledby="ex3-tab-1">
+                    <!-- Pills navs -->
+                    <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="ex3-tab-1" data-mdb-toggle="pill"
+                               href="#ex3-pills-1" role="tab" aria-controls="ex3-pills-1"
+                               aria-selected="true">Motoristas</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="ex3-tab-2" data-mdb-toggle="pill" href="#ex3-pills-2"
+                               role="tab" aria-controls="ex3-pills-2" aria-selected="false">Construtores</a>
+                        </li>
+                    </ul>
+                    <!-- Pills navs -->
+
+                    <!-- Pills content -->
+                    <div class="tab-content" id="ex2-content">
+                        <div class="tab-pane fade show active" id="ex3-pills-1" role="tabpanel"
+                             aria-labelledby="ex3-tab-1">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <table class=" table table striped border primary" width="100%">
+                                        <thead>
+                                        <tr>
+                                            <th width="30%"> Classificação dos Motoristas</th>
+                                            <th width="20%"> Pontos</th>
+                                            <th width="20%"> Vitórias</th>
+                                            <th width="20%"> Pódios</th>
+                                            <th width="20%"> Ano</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="img/indonesia.png" height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">C.Leclerc</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>86</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/paises-baixos.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">M.Verstappen</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>59</td>
+                                            <td>2</td>
+                                            <td>2</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/mexico.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">S. Pérez</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>54</td>
+                                            <td>0</td>
+                                            <td>2</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/reino-unido.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">G. Russell</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>49</td>
+                                            <td>0</td>
+                                            <td>1</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/espanha.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">C. Sainz Jr</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>38</td>
+                                            <td>0</td>
+                                            <td>2</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="ex3-pills-2" role="tabpanel" aria-labelledby="ex3-tabs-2">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <table class=" table table striped border primary" width="100%">
+                                        <thead>
+                                        <tr>
+                                            <th width="20%"> Classificação dos Construtores</th>
+                                            <th width="20%"> Pontos</th>
+                                            <th width="20%"> Vitórias</th>
+                                            <th width="20%"> Pódios</th>
+                                            <th width="20%"> Ano</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/icons8-ferrari-48.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">Ferrari</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>124</td>
+                                            <td>2</td>
+                                            <td>5</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/redbull-282301.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">Red Bull</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>113</td>
+                                            <td>2</td>
+                                            <td>4</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/icons8-mercedes-benz-100.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">Mercedes</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>77</td>
+                                            <td>0</td>
+                                            <td>2</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/icons8-mclaren-48.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">Mclaren</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>46</td>
+                                            <td>0</td>
+                                            <td>1</td>
+                                            <td>2022</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img
+                                                            src="img/icons8-alfa-romeo-48.png"
+                                                            height="60"/>
+                                                    <div class="ms-3">
+                                                        <p class="fw-bold mb-1">Alfa Romeo</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>25</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>2022</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div><!-- Pills content -->
+                        <div class="tab-pane fade" id="ex3-tabs-2" role="tabpanel" aria-labelledby="ex3-tab-2">
+                            <div class="tab-content" id="ex2-content">
+                                <div class="tab-pane fade show active" id="ex3-pills-1" role="tabpanel"
+                                     aria-labelledby="ex3-tab-1">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <table class=" table table striped border primary" width="100%">
+                                                <thead>
+                                                <tr>
+                                                    <th width="20%"> Classificação dos Motoristas</th>
+                                                    <th width="20%"> Pontos</th>
+                                                    <th width="20%"> Vitórias</th>
+                                                    <th width="20%"> Pódios</th>
+                                                    <th width="20%"> Ano</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/paises-baixos2.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">M. Verstappen</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>395.5</td>
+                                                    <td>10</td>
+                                                    <td>18</td>
+                                                    <td>2021</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/reino-unido.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">L.Hamilton</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>387.5</td>
+                                                    <td>8</td>
+                                                    <td>17</td>
+                                                    <td>2021</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-finland-67.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">V.Bottas</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>226</td>
+                                                    <td>1</td>
+                                                    <td>11</td>
+                                                    <td>2021</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/mexico.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">S.Pérez</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>190</td>
+                                                    <td>1</td>
+                                                    <td>5</td>
+                                                    <td>2021</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="ex3-pills-2" role="tabpanel"
+                                 aria-labelledby="ex3-tabs-2">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <table class=" table table striped border primary" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th width="20%"> Classificação dos Construtores</th>
+                                                <th width="20%"> Pontos</th>
+                                                <th width="20%"> Vitórias</th>
+                                                <th width="20%"> Pódios</th>
+                                                <th width="20%"> Ano</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img
+                                                                src="img/icons8-mercedes-benz-100.png"
+                                                                height="60"/>
+                                                        <div class="ms-3">
+                                                            <p class="fw-bold mb-1">Mercedes</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>613.5</td>
+                                                <td>9</td>
+                                                <td>28</td>
+                                                <td>2021</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img
+                                                                src="img/redbull-282301.png"
+                                                                height="60"/>
+                                                        <div class="ms-3">
+                                                            <p class="fw-bold mb-1">Red Bull</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>585.5</td>
+                                                <td>11</td>
+                                                <td>23</td>
+                                                <td>2021</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img
+                                                                src="img/icons8-ferrari-48.png"
+                                                                height="60"/>
+                                                        <div class="ms-3">
+                                                            <p class="fw-bold mb-1">Ferrari</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>323.5</td>
+                                                <td>0</td>
+                                                <td>5</td>
+                                                <td>2021</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img
+                                                                src="img/icons8-mclaren-48.png"
+                                                                height="60"/>
+                                                        <div class="ms-3">
+                                                            <p class="fw-bold mb-1">McLaren</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>275</td>
+                                                <td>1</td>
+                                                <td>5</td>
+                                                <td>2021</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <img
+                                                                src="img/icons8-finland-67.png"
+                                                                height="60"/>
+                                                        <div class="ms-3">
+                                                            <p class="fw-bold mb-1">Alpine</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>275</td>
+                                                <td>1</td>
+                                                <td>5</td>
+                                                <td>2021</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="ex3-tabs-3" role="tabpanel" aria-labelledby="ex3-tab-3">
+                            <div class="tab-content" id="ex2-content">
+                                <div class="tab-pane fade show active" id="ex3-pills-1" role="tabpanel"
+                                     aria-labelledby="ex3-tab-1">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <table class=" table table striped border primary" width="100%">
+                                                <thead>
+                                                <tr>
+                                                    <th width="20%"> Classificação dos Motoristas</th>
+                                                    <th width="20%"> Pontos</th>
+                                                    <th width="20%"> Vitórias</th>
+                                                    <th width="20%"> Pódios</th>
+                                                    <th width="20%"> Ano</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/reino-unido.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">L.hamilton</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>347</td>
+                                                    <td>11</td>
+                                                    <td>14</td>
+                                                    <td>2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-finland-67.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">V.Bottas</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>223</td>
+                                                    <td>2</td>
+                                                    <td>11</td>
+                                                    <td>2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/paises-baixos.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">M.Verstappen</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>214</td>
+                                                    <td>2</td>
+                                                    <td>11</td>
+                                                    <td>2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/mexico.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">S.Pérez</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>125</td>
+                                                    <td>1</td>
+                                                    <td>2</td>
+                                                    <td>2020</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="ex3-pills-2" role="tabpanel"
+                                     aria-labelledby="ex3-tabs-2">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <table class=" table table striped border primary" width="100%">
+                                                <thead>
+                                                <tr>
+                                                    <th width="20%"> Classificação dos Construtores</th>
+                                                    <th width="20%"> Pontos</th>
+                                                    <th width="20%"> Vitórias</th>
+                                                    <th width="20%"> Pódios</th>
+                                                    <th width="20%"> Ano</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-mercedes-benz-100.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">Mercedes</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>573</td>
+                                                    <td>13</td>
+                                                    <td>25</td>
+                                                    <td>2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/redbull-282301.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">Red bull</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>319</td>
+                                                    <td>2</td>
+                                                    <td>13</td>
+                                                    <td>2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-mclaren-48.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">McLaren</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>202</td>
+                                                    <td>0</td>
+                                                    <td>2</td>
+                                                    <td>2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-racing-lap-50.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">Racing Point</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>195</td>
+                                                    <td>1</td>
+                                                    <td>4</td>
+                                                    <td>2020</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Pills content -->
+                        <div class="tab-pane fade" id="ex3-tabs-4" role="tabpanel" aria-labelledby="ex3-tab-4">
+                            <div class="tab-content" id="ex2-content">
+                                <div class="tab-pane fade show active" id="ex3-pills-1" role="tabpanel"
+                                     aria-labelledby="ex3-tab-1">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <table class=" table table striped border primary" width="100%">
+                                                <thead>
+                                                <tr>
+                                                    <th width="20%"> Classificação dos Motoristas</th>
+                                                    <th width="20%"> Pontos</th>
+                                                    <th width="20%"> Vitórias</th>
+                                                    <th width="20%"> Pódios</th>
+                                                    <th width="20%"> Ano</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/reino-unido.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">L.Hamilton</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>413</td>
+                                                    <td>11</td>
+                                                    <td>17</td>
+                                                    <td>2019</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-finland-67.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">V.Bottas</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>326</td>
+                                                    <td>4</td>
+                                                    <td>15</td>
+                                                    <td>2029</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/paises-baixos.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">M.Verstappen</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>278</td>
+                                                    <td>3</td>
+                                                    <td>9</td>
+                                                    <td>2019</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/suica.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">C.Leclerc</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>264</td>
+                                                    <td>2</td>
+                                                    <td>10</td>
+                                                    <td>2019</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="ex3-pills-2" role="tabpanel"
+                                     aria-labelledby="ex3-tabs-2">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <table class=" table table striped border primary" width="100%">
+                                                <thead>
+                                                <tr>
+                                                    <th width="20%"> Classificação dos Construtores</th>
+                                                    <th width="20%"> Pontos</th>
+                                                    <th width="20%"> Vitórias</th>
+                                                    <th width="20%"> Pódios</th>
+                                                    <th width="20%"> Ano</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-mercedes-benz-100.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">Mercedes</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>739</td>
+                                                    <td>15</td>
+                                                    <td>32</td>
+                                                    <td>2019</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-ferrari-48.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">Ferrari</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>504</td>
+                                                    <td>3</td>
+                                                    <td>19</td>
+                                                    <td>2019</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/redbull-282301.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">Red Bull</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>417</td>
+                                                    <td>3</td>
+                                                    <td>9</td>
+                                                    <td>2019</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <img
+                                                                    src="img/icons8-mclaren-48.png"
+                                                                    height="60"/>
+                                                            <div class="ms-3">
+                                                                <p class="fw-bold mb-1">McLaren</p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>145</td>
+                                                    <td>0</td>
+                                                    <td>1</td>
+                                                    <td>2019</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- Pills content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Tabs content -->
+
+
+<!-- MDB -->
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+</body>
+
+</html>
